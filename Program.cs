@@ -14,8 +14,7 @@ builder.Services.AddScoped<IDepartmentService, DepartmentService>();
 builder.Services.AddScoped<IStudentService, StudentService>();
 builder.Services.AddScoped<IInstructorService, InstructorService>();
 builder.Services.AddScoped<ICourseService, CourseService>();
-
-
+builder.Services.AddScoped<IEnrollmentService, EnrollmentService>();
 
 builder.Services.AddControllers();
 
